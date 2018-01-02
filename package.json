@@ -1,0 +1,24 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Gerenciando pacotes com npm",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deppbrazil/npm.git"
+  },
+  "keywords": [
+    "npm",
+    "initnpm",
+    "startingnpm"
+  ],
+  "author": "Mir Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deppbrazil/npm/issues"
+  },
+  "homepage": "https://github.com/deppbrazil/npm#readme"
+}
