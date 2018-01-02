@@ -1,4 +1,5 @@
 # npm #
+Inspirado no [vídeo](https://www.youtube.com/watch?v=WZoVzdi3N9s) do [Rafael Dias](https://github.com/eudiasrafael)
 ### [Download Node.js](https://nodejs.org/en/) ###
 
 ## Iniciando ##
