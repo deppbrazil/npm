@@ -23,7 +23,7 @@ Isso vai gerar o [package.json](https://github.com/deppbrazil/npm/blob/master/pa
 * `npm view nomeDoPacote` lista detalhes do pacote
 * [Documentação](https://docs.npmjs.com/cli/view)
 
-## Salvar informações em um ## `.json`,`txt`, `etc`
+## Salvar informações em um `.json`,`txt`, `etc` ##
 * `--json`
 * `npm view --json nomeDoPacote > detalhes.json` coloca os detalhes do pacote em um `.json`
 * `npm -g ls --json > ls.json` coloca quais pacotes estão instalados globais em um `.json`
