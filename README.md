@@ -15,7 +15,7 @@ Inspirado no [vídeo](https://www.youtube.com/watch?v=WZoVzdi3N9s) do [Rafael Di
 * author:
 * licence:
 
-Isso vai gerar o `package.json`
+Isso vai gerar o [package.json](https://github.com/deppbrazil/npm/blob/master/package.json)
 
 ## Buscando pacotes/plugin pela linha de comando ##
 * `npm search nomeDoPacote` lista todos os pacotes e plugins com base na busca
@@ -23,7 +23,7 @@ Isso vai gerar o `package.json`
 * `npm view nomeDoPacote` lista detalhes do pacote
 * [Documentação](https://docs.npmjs.com/cli/view)
 
-## Salvar informações em um `.json`,`txt`, `etc` ##
+## Salvar informações em um ## `.json`,`txt`, `etc`
 * `--json`
 * `npm view --json nomeDoPacote > detalhes.json` coloca os detalhes do pacote em um `.json`
 * `npm -g ls --json > ls.json` coloca quais pacotes estão instalados globais em um `.json`
@@ -40,33 +40,33 @@ Isso vai gerar o `package.json`
 * `npm install nomeDoPacote@123` instalação versão 
 * `npm install -g nomeDoPacote` instalação global
 
-## Salvando dependências ##
-`npm install --save nomeDoPacote`
+## [Salvando dependências](https://github.com/deppbrazil/npm/blob/master/package.json) ##
+* `npm install --save nomeDoPacote`
 ## Salvando dependências de desenvolvimento ##
-`npm install --save-dev nomeDoPacote`
+* `npm install --save-dev nomeDoPacote`
 
 ## Instalando dependências ## 
-`npm install --production` instala todas as dependências
+* `npm install` instala todas as dependências
 ## Instalando dependências de produção ## 
-`npm install --production` instala apenas as dependências de produção
+* `npm install --production` instala apenas as dependências de produção
 
 ## Atualizando pacotes ##
-`npm update nomeDoPacote` local 
-`npm -g update nomeDoPacote` global
+* `npm update nomeDoPacote` local 
+* `npm -g update nomeDoPacote` global
 
-`npm update --save nomeDoPacote` local e salvando no package.json
-`npm -g update --save nomeDoPacote` global e salvando no `package.json`
+* `npm update --save nomeDoPacote` local e salvando no package.json
+* `npm -g update --save nomeDoPacote` global e salvando no `package.json`
 
 ## Removendo um pacote ## 
-`npm uninstall nomeDoPacote`
-`npm uninstall --save nomeDoPacote` para salvar no `package.json`
-`npm uninstall --save-dev nomeDoPacote` para salvar no `package.json`
+* `npm uninstall nomeDoPacote`
+* `npm uninstall --save nomeDoPacote` para salvar no `package.json`
+* `npm uninstall --save-dev nomeDoPacote` para salvar no `package.json`
 >remove os pacotes e suas dependências, exceto se a dependência também é de outro pacote.
 
-## Ver pacotes instalados no projeto ##
+## [Ver pacotes instalados no projeto](https://github.com/deppbrazil/npm/blob/master/package-project.json) ##
 * `npm ls`
 
-## Ver pacotes instalados globais ##
+## [Ver pacotes instalados globais](https://github.com/deppbrazil/npm/blob/master/package-macbook.json) ##
 * `npm -g ls`
 
 ## Cache ##
