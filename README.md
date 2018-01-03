@@ -5,15 +5,15 @@ Inspirado no [vídeo](https://www.youtube.com/watch?v=WZoVzdi3N9s) do [Rafael Di
 ## Iniciando ##
 
 `npm init`
-* name: 
-* version:
-* description
-* entry point: 
-* test command:
-* git repository:
-* keywords:
-* author:
-* licence:
+* name: `npm`
+* version: `1.0.0`
+* description: `Gerenciando pacotes com npm`
+* entry point: `index.html`
+* test command: ``
+* git repository: ``
+* keywords: `npm` `initnpm` `startingnpm`
+* author: `Mir Carvalho`
+* licence: `MIT`
 
 Isso vai gerar o [package.json](https://github.com/deppbrazil/npm/blob/master/package.json)
 
