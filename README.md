@@ -71,7 +71,7 @@ Isso vai gerar o [package.json](https://github.com/deppbrazil/npm/blob/master/pa
 
 ## Cache ##
 * `npm cache ls` lista pacotes cacheados 
-* `npm cache clear` limpa cache
+* `npm cache clean` limpa cache
 
 ## Reconstruindo pacotes devido a atualização do npm ##
 * `npm rebuild` recupera os pacotes 
